@@ -23,6 +23,17 @@
 	clear: both;
 }
 
+.img-responsive {
+	max-width: 100%;
+}
+
+figure {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
+}
+
 [class*="col-"] {
 	padding: 0 10px;
 	margin-bottom: 20px;
@@ -199,4 +210,12 @@
 [class*="col-" ] div {
 	background-color: #77FFDB;
 	height: 500px;
+}
+
+#bg-icecream {
+	background-image: url("../img/bg-icecream.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-origin: content-box;
+	height: 300px;
 }
