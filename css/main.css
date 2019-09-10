@@ -213,9 +213,6 @@ figure {
 }
 
 #bg-icecream {
-	background-image: url("../img/bg-icecream.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-origin: content-box;
-	height: 300px;
+  background: url("../img/bg-icecream.jpg") no-repeat 0 0/cover content-box content-box;
+  height: 300px;
 }
